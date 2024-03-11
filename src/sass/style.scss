@@ -1,29 +1,25 @@
-// @import "base/normalize";
-
+@import "./base/normolize";
 // //Abstract
-// @import "abstract/constants";
-// @import "abstract/mixins";
-// @import "abstract/placeholders";
+@import "./abstract/constants";
+@import "./abstract/mixins";
 
 // //Base
-// @import "base/base";
-// @import "base/buttons";
-// @import "base/logo";
-// @import "base/icons";
-// @import "base/tags";
-// @import "base/hamburger";
-// @import "base/modal";
+@import "./base/base";
+@import "./base/buttons";
+@import "./base/logo";
+@import "./base/icons";
+@import "./base/hamburger";
 
 // //Layouts
-// @import "layouts/wrapper";
-// @import "layouts/header";
-// @import "layouts/columns";
-// @import "layouts/footer";
+@import "./layouts/wrapper";
+@import "./layouts/header";
+@import "./layouts/layout-3-columns";
+@import "./layouts/footer";
 
 // // Components
-// @import "components/contact-us";
-// @import "components/promo";
-// @import "components/navigation";
-// @import "components/tools";
-// @import "components/strategies";
-// @import "components/about-us";
+@import "./components/about";
+@import "./components/contact-us";
+@import "./components/experience";
+@import "./components/help";
+@import "./components/service";
+@import "./components/wrapper";
