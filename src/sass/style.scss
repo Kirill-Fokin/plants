@@ -2,6 +2,7 @@
 // //Abstract
 @import "./abstract/constants";
 @import "./abstract/mixins";
+@import "./abstract/extends";
 
 // //Base
 @import "./base/base";
@@ -17,6 +18,7 @@
 @import "./layouts/footer";
 
 // // Components
+@import "./components/navigation";
 @import "./components/about";
 @import "./components/contact-us";
 @import "./components/experience";

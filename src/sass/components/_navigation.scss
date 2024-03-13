@@ -1,0 +1,14 @@
+.navigation {
+   @include flex(space-around, normal);
+}
+
+.menu {
+  &__link {
+    @include font(1.6rem, "Inika", 400);
+    color: black;        
+    transition: .3s ease-in-out;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

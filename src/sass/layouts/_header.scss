@@ -1,3 +1,6 @@
 .header {
-    background-color: $bg-srction-color;
+  background-color: $bg-srction-color;
+  &__wrapper  {
+    @include flex(space-between);
+  }
 }

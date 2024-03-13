@@ -362,6 +362,14 @@ body {
   height: 4.43rem;
 }
 
+.logo__text {
+  font-size: 1.6rem;
+  font-family: "Inika";
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
 .wrapper {
   margin: auto;
 }
@@ -378,6 +386,41 @@ body {
 
 .header {
   background-color: #EDF2EC;
+}
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+}
+
+.menu__link {
+  font-size: 1.6rem;
+  font-family: "Inika";
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.menu__link:hover {
+  color: #E06733;
 }
 
 .about {
