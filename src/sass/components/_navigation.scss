@@ -1,5 +1,10 @@
 .navigation {
-   @include flex(space-around, normal);
+   @include flex(space-between, normal);
+   column-gap: 4.6rem;
+   &__wrapper {
+     position: relative;
+     left: -0.3rem;
+   }
 }
 
 .menu {

@@ -31,11 +31,11 @@
   // .contact-us__input
 
   &__input {
-  @include width-height(45rem, 5rem);
-  border: 1px solid gray;
-  background-color: #D6E7D2;
-  color: #717171;
-  font-size: 3rem;
+    @include width-height(45rem, 5rem);
+    border: 1px solid gray;
+    background-color: #D6E7D2;
+    color: #717171;
+    font-size: 3rem;
   }
 }
 .wrapper {

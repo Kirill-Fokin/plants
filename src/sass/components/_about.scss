@@ -1,11 +1,27 @@
 .about {
+  padding-top: 5.2rem;
+  padding-bottom: 5.8rem;
   background-color: $bg-srction-color;
+
+  .about__button {
+    & span {
+      color: black;
+    }
+  }
+  
+  &__content {
+    display: flex;
+    @include flex(center);
+    row-gap: 2.5rem;
+
+    flex-direction: column;
+  }
   &__wrapper {
-    @include flex(space-around);
-   
+    @include flex(space-between);
   }
 
   &__text {
-    
+    position: relative;
+    bottom: 0.5rem;
   }
 }

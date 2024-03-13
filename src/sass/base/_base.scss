@@ -9,9 +9,17 @@ body {
 .text {
   @include font(2rem, "Inter", 400);
   color: $text-color;
+  line-height: 3.4rem;
+  word-spacing: 0.2rem;
+}
+
+.experience-text {
+  width: 65rem;
 }
 
 .text-bold {
   font-weight: 600;
+  max-width: 54.9rem;
+  // margin-top: 1rem;;
 }
 //h1 and others

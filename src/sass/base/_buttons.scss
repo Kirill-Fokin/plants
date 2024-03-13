@@ -10,8 +10,23 @@
   @include font(2rem, 'Inika', 400);
   color: $main-color;
   @extend %transition;
+    & span {
+    color: black;
+    font-size: 1.4rem;
+  }
   &:hover {
     background-color: $main-color;
     color: white;
+  }
+}
+
+.about__button {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   span {
+    color: black;
   }
 }

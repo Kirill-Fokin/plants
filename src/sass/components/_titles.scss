@@ -9,6 +9,7 @@
 
 .main-title {
   @include font(4.5rem, 'Inter', 600);
+  max-width: 54.9rem;
   color: $title-color;
   & span {
     color: $title-sub-color;
