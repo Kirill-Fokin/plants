@@ -5,4 +5,13 @@
   border-radius: 1rem;
   width: 15.8rem;
   height: 4.43rem;
+  border: 1px solid $main-color;
+  border-radius: 0.5rem;
+  @include font(2rem, 'Inika', 400);
+  color: $main-color;
+  @extend %transition;
+  &:hover {
+    background-color: $main-color;
+    color: white;
+  }
 }

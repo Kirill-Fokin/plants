@@ -1,0 +1,33 @@
+.experience {
+
+    &__wrapper {
+      @include flex(space-around);
+    }
+
+    // .experience__content
+
+    &__content {
+    }
+
+    // .experience__title
+
+    &__title {
+    }
+
+    // .experience__text
+
+    &__text {
+     
+    }
+
+    // .experience__image
+
+    &__image {
+    }
+}
+.wrapper {
+}
+.title {
+}
+.text {
+}

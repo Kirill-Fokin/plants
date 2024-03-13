@@ -1,0 +1,19 @@
+.title {
+  @include font(4rem, 'Inter', 400);
+  color: $title-sub-color;
+  max-width: 46.3rem;
+  & span {
+    color:$main-color;
+  }
+}
+
+.main-title {
+  @include font(4.5rem, 'Inter', 600);
+  color: $title-color;
+  & span {
+    color: $title-sub-color;
+  }
+}
+
+
+

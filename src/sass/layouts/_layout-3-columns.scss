@@ -1,0 +1,31 @@
+.layout-3-columns {
+
+}
+.card-container {
+    @include flex(space-between);
+    flex-wrap: wrap;
+}
+.card {
+      @include flex(normal, center);
+      flex-direction: column;
+      border: 1px solid #88878726;
+      border-radius: 1rem;
+
+		&__image {
+        border-radius: 2rem;
+		}
+
+		// .card__title
+
+		&__title {
+          @include font(2rem, 'Inter', 600);
+          color: $main-color;
+		}
+
+		// .card__text
+
+		&__text {
+            @include font(1.6rem, 'Inter', 400);
+            color: $title-color
+		}
+}

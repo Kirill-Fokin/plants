@@ -1,3 +1,44 @@
 .contact-us {
   background-color: $bg-srction-color;
+
+  // .contact-us__wrapper
+
+  &__wrapper {
+    @include flex (normal);
+    flex-direction: column;
+
+  }
+
+  // .contact-us__title
+
+  &__title {
+    margin: 0 auto;
+  }
+
+  // .contact-us__content
+
+  &__content {
+    @include flex (space-around);
+
+  }
+
+  // .contact-us__image
+
+  &__image {
+  
+  }
+
+  // .contact-us__input
+
+  &__input {
+  @include width-height(45rem, 5rem);
+  border: 1px solid gray;
+  background-color: #D6E7D2;
+  color: #717171;
+  font-size: 3rem;
+  }
+}
+.wrapper {
+}
+.title {
 }

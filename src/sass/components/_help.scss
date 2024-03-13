@@ -1,0 +1,38 @@
+.help {
+    // .help__wrapper
+
+    &__wrapper {
+      @include flex(space-around);
+    }
+
+    // .help__left
+
+    &__left {
+    }
+
+    // .help__right
+
+    &__right {
+    }
+
+    // .help__image
+
+    &__image {
+    }
+}
+.wrapper {
+}
+.title {
+}
+.help-choise {
+    @include width-height(33.2rem, 28.2rem);
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 1rem;
+
+    // .help-choise__input
+
+    &__input {
+    }
+}
+.button {
+}

@@ -1,3 +1,54 @@
+
+
 .service {
-    background-color: $bg-srction-color;
+  background-color: $bg-srction-color;
+  // .service__wrapper
+
+  &__wrapper {
+  }
+
+  // .service__head
+
+  &__head {
+  }
+
+  // .service__title
+
+  &__title {
+  }
+
+  // .service__buttons
+
+  &__buttons {
+    @include flex(space-around);
+    
+  }
 }
+.wrapper {
+}
+.title {
+}
+.button {
+}
+.layout-3-columns {
+}
+.card-container {
+}
+.card {
+
+  // .card__image
+
+  &__image {
+  }
+
+  // .card__title
+
+  &__title {
+  }
+
+  // .card__text
+
+  &__text {
+  }
+}
+
