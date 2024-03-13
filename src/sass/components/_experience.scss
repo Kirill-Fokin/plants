@@ -1,14 +1,18 @@
 .experience {
   padding-top: 10.3rem;
+  padding-bottom: 8rem;
 
     &__wrapper {
-      @include flex(space-around);
+      @include flex(space-between);
     }
 
-    // .experience__content
 
     &__content {
-      padding-top: 2rem;
+      padding-top: 0rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 4rem;
     }
 
     // .experience__title
@@ -19,13 +23,13 @@
     // .experience__text
 
     &__text {
-     line-height: 3.5rem;
-     max-width: 60rem;
+     max-width: 60.5rem;
     }
 
     // .experience__image
 
     &__image {
+      align-self: center;
     }
 }
 .wrapper {

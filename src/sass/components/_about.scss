@@ -1,6 +1,6 @@
 .about {
   padding-top: 5.2rem;
-  padding-bottom: 5.8rem;
+  padding-bottom: 5.3rem;
   background-color: $bg-srction-color;
 
   .about__button {
@@ -10,14 +10,18 @@
   }
   
   &__content {
+    // padding-top: 2rem;
     display: flex;
     @include flex(center);
-    row-gap: 2.5rem;
+    row-gap: 4.5rem;
 
     flex-direction: column;
   }
   &__wrapper {
     @include flex(space-between);
+  }
+  &__image {
+    align-self: center;
   }
 
   &__text {

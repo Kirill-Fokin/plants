@@ -1,8 +1,12 @@
 .help {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    flex-wrap: wrap;
     // .help__wrapper
 
     &__wrapper {
-      @include flex(space-around);
+      @include flex(space-between);
+
     }
 
     // .help__left
@@ -13,6 +17,9 @@
     // .help__right
 
     &__right {
+        @include flex(flex-end, flex-end);
+        flex-direction: column;
+        row-gap: 3.8rem;
     }
 
     // .help__image

@@ -2,6 +2,8 @@ html {
     font-size: 10px;
 }
 
+.blur { filter: blur(30px); }
+
 body {
   margin: 0 auto;
 }
@@ -9,8 +11,8 @@ body {
 .text {
   @include font(2rem, "Inter", 400);
   color: $text-color;
-  line-height: 3.4rem;
-  word-spacing: 0.2rem;
+  line-height: 3rem;
+  word-spacing: 0.03rem;
 }
 
 .experience-text {
@@ -18,6 +20,8 @@ body {
 }
 
 .text-bold {
+  line-height: 3.4rem;
+  word-spacing: 0.2rem;
   font-weight: 600;
   max-width: 54.9rem;
   // margin-top: 1rem;;

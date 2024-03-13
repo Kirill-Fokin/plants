@@ -2,6 +2,8 @@
   @include font(4rem, 'Inter', 400);
   color: $title-sub-color;
   max-width: 46.3rem;
+  word-spacing: 0.005rem;
+  letter-spacing: 0.01rem;
   & span {
     color:$main-color;
   }

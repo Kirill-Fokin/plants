@@ -1,4 +1,5 @@
 .contact-us {
+  padding-top: 6rem;
   background-color: $bg-srction-color;
 
   // .contact-us__wrapper
@@ -18,19 +19,21 @@
   // .contact-us__content
 
   &__content {
-    @include flex (space-around);
+    @include flex (center);
+    column-gap: 37rem;
 
   }
 
   // .contact-us__image
 
   &__image {
-  
+  margin-top: -5rem;
   }
 
   // .contact-us__input
 
   &__input {
+    margin-top: 4rem;
     @include width-height(45rem, 5rem);
     border: 1px solid gray;
     background-color: #D6E7D2;

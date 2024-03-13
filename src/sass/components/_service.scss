@@ -1,26 +1,33 @@
-
-
 .service {
   background-color: $bg-srction-color;
-  // .service__wrapper
-
+  padding-top: 7rem;
+  padding-bottom: 12.5rem;
   &__wrapper {
+    @include flex(center, center);
+    flex-direction: column; 
   }
 
   // .service__head
 
   &__head {
+    @include flex(center);
+    column-gap: 14.2rem;
+    padding-right: 20rem;
+    flex-wrap: wrap;
   }
 
   // .service__title
 
   &__title {
+    max-width: 30.6rem;
+    margin-top: -2rem;
   }
 
   // .service__buttons
 
   &__buttons {
     @include flex(space-around);
+    column-gap: 3.8rem;
     
   }
 }
