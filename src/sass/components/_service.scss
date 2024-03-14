@@ -14,6 +14,9 @@
     column-gap: 14.2rem;
     padding-right: 20rem;
     flex-wrap: wrap;
+    @media( max-width:145rem ){
+      padding-right: 0rem;
+     }
   }
 
   // .service__title
@@ -21,6 +24,10 @@
   &__title {
     max-width: 30.6rem;
     margin-top: -2rem;
+
+    @media( max-width:145rem ){
+     padding-bottom: 4rem;; 
+    }
   }
 
   // .service__buttons

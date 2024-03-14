@@ -20,10 +20,14 @@
   }
   &__wrapper {
     @include flex(space-between);
+    
   }
   &__image {
-    width: 100%;
     align-self: center;
+    max-width: 44.8rem;
+    @include media-tablet {
+      max-width: 28rem;
+  }
   }
 
   &__text {

@@ -16,6 +16,10 @@
   & span {
     color: $title-sub-color;
   }
+
+  @include media-tablet {
+    @include font(3.5rem, 'Inter', 600);
+  }
 }
 
 

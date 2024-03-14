@@ -7,6 +7,9 @@
   &__wrapper {
     @include flex (normal);
     flex-direction: column;
+    @media (max-width: 1100px) {
+      justify-content: center;
+    }
 
   }
 
@@ -21,6 +24,10 @@
   &__content {
     @include flex (space-between);
     // column-gap: 37rem;
+    @media (max-width: 1100px) {
+      margin-top: 5rem;
+      justify-content: center;
+    }
     flex-wrap: wrap;
 
   }

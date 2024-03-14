@@ -1,36 +1,36 @@
 .layout-3-columns {
-    margin-top: 8rem;
-
+  margin-top: 8rem;
 }
 .card-container {
-    @include flex(space-between);
-    flex-wrap: wrap;
-    row-gap: 5.7rem;
+  @include flex(space-between);
+  flex-wrap: wrap;
+  row-gap: 5.7rem;
+
+  @media (max-width: 1200rem) {
+    justify-content: space-around;
+  }
+  @include media-tablet {
+    justify-content: center;
+  }
 }
+
 .card {
-      @include flex(normal, center);
-      flex-direction: column;
-      border: 1px solid #88878726;
-      border-radius: 1rem;
-      padding-bottom: 3.6rem;
-
-		&__image {
-        border-radius: 2rem;
-		}
-
-		// .card__title
-
-		&__title {
-          margin-top: 1rem;
-          @include font(2rem, 'Inter', 600);
-          color: $main-color;
-		}
-
-		// .card__text
-
-		&__text {
-            margin-top: 1rem;
-            @include font(1.6rem, 'Inter', 400);
-            color: $title-color
-		}
+  @include flex(normal, center);
+    flex-direction: column;
+    border: 1px solid #88878726;
+    border-radius: 1rem;
+    padding-bottom: 3.6rem;
+  &__image {
+    border-radius: 2rem;
+  }
+  &__title {
+    margin-top: 1rem;
+    @include font(2rem, 'Inter', 600);
+    color: $main-color;
+  }
+  &__text {
+    margin-top: 1rem;
+    @include font(1.6rem, 'Inter', 400);
+    color: $title-color
+  }
 }

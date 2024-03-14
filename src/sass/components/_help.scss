@@ -6,7 +6,10 @@
     &__wrapper {
       @include flex(space-between);
          flex-wrap: wrap;
-
+         @media (max-width: 1100px) {
+            justify-content: center;
+          }
+          row-gap: 5rem;
     }
 
     // .help__left
@@ -20,6 +23,11 @@
         @include flex(flex-end, flex-end);
         flex-direction: column;
         row-gap: 3.8rem;
+
+        @media (max-width: 1100px) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     // .help__image
