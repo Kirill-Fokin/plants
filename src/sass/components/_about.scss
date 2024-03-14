@@ -1,0 +1,37 @@
+.about {
+  padding-top: 5.2rem;
+  padding-bottom: 5.3rem;
+  background-color: $bg-srction-color;
+
+  .about__button {
+    & span {
+      color: black;
+    }
+  }
+  
+  &__content {
+    // padding-top: 2rem;
+    display: flex;
+    @include flex(center);
+    row-gap: 4.5rem;
+    // flex-shrink: 4;
+
+    flex-direction: column;
+  }
+  &__wrapper {
+    @include flex(space-between);
+    
+  }
+  &__image {
+    align-self: center;
+    max-width: 44.8rem;
+    @include media-tablet {
+      max-width: 28rem;
+  }
+  }
+
+  &__text {
+    position: relative;
+    bottom: 0.5rem;
+  }
+}

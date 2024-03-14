@@ -1,0 +1,30 @@
+.footer {
+    padding-top: 5rem;   
+    padding-bottom: 5rem; 
+    // .footer__wrapper
+
+    &__wrapper {
+        @include flex(space-between);
+         
+    }
+
+    // .footer__link
+
+    &__link {
+        & a { 
+            @include font(2rem, 'Inter', 400);
+           color: black;
+        }
+    }
+
+    // .footer__logos
+
+    &__logos {
+        @include flex(space-between);
+        column-gap: 1rem;
+    }
+}
+.wrapper {
+}
+.logo-object {
+}

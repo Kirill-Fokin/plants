@@ -1,0 +1,19 @@
+.navigation {
+   @include flex(space-between, normal);
+   column-gap: 4.6rem;
+   &__wrapper {
+     position: relative;
+     left: -0.3rem;
+   }
+}
+
+.menu {
+  &__link {
+    @include font(1.6rem, "Inika", 400);
+    color: black;        
+    transition: .3s ease-in-out;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.experience {
+  padding-top: 10.3rem;
+  padding-bottom: 8rem;
+
+    &__wrapper {
+      @include flex(space-between);
+      @include media-tablet {
+        flex-direction: column;
+      }
+
+      @media (max-width: 1317px) {
+        column-gap: 5rem;
+      }
+    }
+
+
+    &__content {
+      padding-top: 0rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 4rem;
+    }
+
+    // .experience__title
+
+    &__title {
+    }
+
+    // .experience__text
+
+    &__text {
+     max-width: 60.5rem;
+    }
+
+    // .experience__image
+
+    &__image {
+      align-self: center;
+    }
+}
+.wrapper {
+}
+.title {
+}
+.text {
+}

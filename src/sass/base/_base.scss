@@ -1,0 +1,42 @@
+html {
+    font-size: 10px;
+}
+
+.card-height {
+  background-color: green;
+  height: 15rem !important;
+  flex-direction: column;
+}
+
+.blur { filter: blur(30px); }
+
+body {
+  margin: 0 auto;
+}
+
+.text {
+  @include font(2rem, "Inter", 400);
+  color: $text-color;
+  line-height: 3rem;
+  word-spacing: 0.03rem;
+
+  @include media-tablet {
+    @include font(1.6rem, "Inter", 400);
+  }
+}
+
+.experience-text {
+  width: 65rem;
+}
+
+.text-bold {
+  line-height: 3.4rem;
+  word-spacing: 0.2rem;
+  font-weight: 600;
+  max-width: 54.9rem;
+  @include media-tablet {
+    @include font(1.6rem, "Inter", 400);
+  }
+
+}
+//h1 and others

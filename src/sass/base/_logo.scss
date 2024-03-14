@@ -1,0 +1,6 @@
+.logo {
+  &__text {
+    @include font(1.6rem, "Inika", 400);
+    color: black;
+  }
+}

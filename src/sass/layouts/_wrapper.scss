@@ -1,0 +1,9 @@
+.wrapper {
+    margin: auto;
+    @include media-laptop {
+        padding: 0 5rem;
+    }
+    @include media-mobile {
+        padding: 0 21px;
+    }
+}

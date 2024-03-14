@@ -1,0 +1,68 @@
+.service {
+  background-color: $bg-srction-color;
+  padding-top: 7rem;
+  padding-bottom: 12.5rem;
+  &__wrapper {
+    @include flex(center, center);
+    flex-direction: column; 
+  }
+
+  // .service__head
+
+  &__head {
+    @include flex(center);
+    column-gap: 14.2rem;
+    padding-right: 20rem;
+    flex-wrap: wrap;
+    @media( max-width:145rem ){
+      padding-right: 0rem;
+     }
+  }
+
+  // .service__title
+
+  &__title {
+    max-width: 30.6rem;
+    margin-top: -2rem;
+
+    @media( max-width:145rem ){
+     padding-bottom: 4rem;; 
+    }
+  }
+
+  // .service__buttons
+
+  &__buttons {
+    @include flex(space-around);
+    column-gap: 3.8rem;
+    
+  }
+}
+.wrapper {
+}
+.title {
+}
+.button {
+}
+.layout-3-columns {
+}
+.card-container {
+}
+.card {
+
+  // .card__image
+
+  &__image {
+  }
+
+  // .card__title
+
+  &__title {
+  }
+
+  // .card__text
+
+  &__text {
+  }
+}
+
