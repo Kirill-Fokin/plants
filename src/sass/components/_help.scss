@@ -1,11 +1,11 @@
 .help {
     padding-top: 4rem;
     padding-bottom: 10rem;
-    flex-wrap: wrap;
     // .help__wrapper
 
     &__wrapper {
       @include flex(space-between);
+         flex-wrap: wrap;
 
     }
 
@@ -35,11 +35,84 @@
     @include width-height(33.2rem, 28.2rem);
     border: 1px solid rgba(0, 0, 0, 0.247);
     border-radius: 1rem;
+    @include flex(center, center);
+    flex-direction: column;
+
+
 
     // .help-choise__input
 
+
+
     &__input {
+        background-color: yellow;
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+
     }
+
+    &__head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+       column-gap: 10rem;
+    }
+
+    label {
+      @include width-height(25rem, 5rem);
+      background-color: $bg-srction-color;
+      display: block;
+      border-radius: 5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      transition: 1s;;
+
+     &:hover {
+        background-color: green;
+      }
+    }
+
+    &__text {
+        @include font(2rem, "Inter", 600);
+    }
+    &__subtext {
+        @include font(1rem, "Inter", 600);
+        padding: 0 1rem;
+        color: rgb(187, 185, 185);
+    }
+
+    .price__numebr {
+        @include font(1.5rem, "Inter", 600);
+        color: orange;
+    }
+
+    .price-button {
+        @include width-height(10rem, 3rem);
+        border-radius: 1rem;
+        font-size: 2rem;
+
+    }
+
+    &__round {
+       @include width-height(1.6rem, 1.6rem);
+       border-radius: 50%;
+       border: 1px solid gray;
+       background-color: rgb(207, 206, 206);
+
+       & span {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        margin: -1px 5px 1px;
+        border: solid rgb(0, 0, 0);
+        border-width: 0 1px 1px 0;
+        transform: rotate( 45deg);
+       }
+    }
+
+    
 }
 .button {
 }

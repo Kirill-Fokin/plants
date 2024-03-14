@@ -107,18 +107,31 @@
         <div class="wrapper help__wrapper">
           <div class="help__left">
             <h3 class="title">Prices</h3>
-            <div class="help-choise">
-              <div class="help-choise__input">
-                <span>Basic</span>
-              </div>
-              <div class="help-choise__input">
-                <span>Standard</span>
-                Standard
-              </div>
-              <div class="help-choise__input">
-                <span>Pro care</span>
-              </div>
-            </div>
+            <form class="help-choise" name="help-choise" method="post" action="#">
+              <input class="help-choise__input" type="radio" id="basic" name="browser" value="ie"><Br>
+                <label class="help-choise__label" for="basic">
+                  <div class="help-choise__head"><p class="help-choise__text">Basic</p>
+                    <div class="help-choise__round"><span></span></div></div>
+                  
+              </label>
+              <input class="help-choise__input" type="radio" id="standart" name="browser" value="ie"><Br>
+                <label class="help-choise__label" for="standart">
+                  <div class="help-choise__head">
+                    <p class="help-choise__text">Standart</p>
+                  <div class="help-choise__round"><span></span></div>
+                  </div>
+                  
+              </label>
+              <input class="help-choise__input" type="radio" id="pro" name="browser" value="ie"><Br>
+                <label class="help-choise__label" for="pro">
+                  <div class="help-choise__head">
+                    <p class="help-choise__text">Pro care</p>
+                    <div class="help-choise__round"><span></span></div>
+                  </div>
+                 
+              </label>
+             
+            </form>
           </div>
           <div class="help__right">
             <h2 class="title help__right__title">Our best gardeners are ready to help you</h2>
@@ -159,6 +172,6 @@
       </div>
     </footer>
   </div>
-  <script src="src/js/blur.js"></script>
+  <script type="module" src="src/js/index.js"></script>
 </body>
 </html>

@@ -2,6 +2,12 @@ html {
     font-size: 10px;
 }
 
+.card-height {
+  background-color: green;
+  height: 15rem !important;
+  flex-direction: column;
+}
+
 .blur { filter: blur(30px); }
 
 body {

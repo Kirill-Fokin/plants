@@ -19,8 +19,9 @@
   // .contact-us__content
 
   &__content {
-    @include flex (center);
-    column-gap: 37rem;
+    @include flex (space-between);
+    // column-gap: 37rem;
+    flex-wrap: wrap;
 
   }
 
