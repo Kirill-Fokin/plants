@@ -52,6 +52,7 @@
   
   .header__burger-btn span:nth-child(3) {
     transform: translateY(-25px);
+    transition: 1s;
   }
   
   .header.open .header__burger-btn span{
