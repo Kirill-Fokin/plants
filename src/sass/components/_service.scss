@@ -35,6 +35,10 @@
   &__buttons {
     @include flex(space-around);
     column-gap: 3.8rem;
+    @include media-mobile {
+      flex-direction: column;
+      row-gap: 4rem;
+    }
     
   }
 }
