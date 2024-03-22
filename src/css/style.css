@@ -554,7 +554,7 @@ body {
     padding: 0 5rem;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 550px) {
   .wrapper {
     padding: 0 21px;
   }
@@ -774,7 +774,7 @@ body {
       -ms-flex-align: normal;
           align-items: normal;
 }
-@media (max-width: 380px) {
+@media (max-width: 550px) {
   .about__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1149,7 +1149,7 @@ body {
      -moz-column-gap: 3.8rem;
           column-gap: 3.8rem;
 }
-@media (max-width: 380px) {
+@media (max-width: 550px) {
   .service__buttons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1169,7 +1169,7 @@ body {
     max-width: 76.8rem;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 550px) {
   .wrapper {
     padding: 0 2.5rem;
     max-width: 33rem;
