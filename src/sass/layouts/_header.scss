@@ -2,16 +2,20 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: $bg-srction-color;
+ 
   &.open .header__burger-btn span:nth-child(3) {
     opacity: 0;
     transform: translateX(-100%);
-     display: none;
+    display: none;
   }
+
+  &.open body {
+
+    display: none;
+  }
+
+
   &__wrapper  {
     @include flex(space-between);
   }
-
-  // &.open .navigation {
-
-  // }
 }

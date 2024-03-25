@@ -369,6 +369,10 @@ body {
   margin: 0 auto;
 }
 
+.header .open body {
+  display: none;
+}
+
 .text {
   font-size: 2rem;
   font-family: "Inter";
@@ -404,6 +408,29 @@ body {
     font-weight: 400;
     font-style: normal;
   }
+}
+
+.body__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.body.open {
+  overflow: hidden;
 }
 
 .button {
@@ -569,6 +596,9 @@ body {
   opacity: 0;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+  display: none;
+}
+.header.open body {
   display: none;
 }
 .header__wrapper {
@@ -768,6 +798,7 @@ body {
     width: 100vw;
     padding: 75px 20px 20px 20px;
     background-color: rgb(130, 183, 141);
+    visibility: hidden;
     -webkit-transition: visibility 0.5s, -webkit-transform 0.5s;
     transition: visibility 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, visibility 0.5s;
