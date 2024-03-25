@@ -3,11 +3,48 @@
    column-gap: 4.6rem;
 
    @media (max-width: 856px) {
-    display: none; 
+    // position: absolute;
+    // right: -100vw;
+    // top: 0;
+    // width: 100vw;
+    // padding: 75px 20px 20px 20px;
+    // background-color: rgb(130, 183, 141);
+    // // visibility: hidden;
+    // transition: transform .5s, visibility .5s;
+    // will-change: transform;
+
+  
+
+    
   }
    &__wrapper {
      position: relative;
      left: -0.3rem;
+
+
+     @media (max-width: 856px) {
+      z-index: 99;
+      @include flex(center, center);
+      row-gap: 10%;
+      flex-direction: column;
+      position: absolute;
+      // right: 100vw;
+      transform: translateX(100vw);
+      margin-top: 0rem;
+      height: 100vh;;
+      top: 0;
+      width: 100vw;
+      padding: 75px 20px 20px 20px;
+      background-color: rgb(130, 183, 141);
+      
+      visibility: hidden;
+      transition: transform .5s, visibility .5s;
+      will-change: transform;
+  
+      .header.open & {
+        transform: translateX(0vw);
+        visibility: visible;
+    }
    }
 }
 
@@ -19,5 +56,9 @@
     &:hover {
       color: $main-color;
     }
+    @include media-tablet {
+      @include font(3.5rem, "Inika", 400);
+    }
   }
+}
 }

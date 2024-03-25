@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
 }
 
+.header .open body{
+  display: none;
+}
+
 .text {
   @include font(2rem, "Inter", 400);
   color: $text-color;
@@ -38,5 +42,26 @@ body {
     @include font(1.6rem, "Inter", 400);
   }
 
+}
+
+
+.body__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: normal;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.body {
+  &.open {
+    overflow: hidden;
+  }
 }
 //h1 and others
